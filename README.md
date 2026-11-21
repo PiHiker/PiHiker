@@ -1,6 +1,6 @@
 # PiHiker
 
-My work spans privacy, security, penetration testing, and Bitcoin. I’m interested in what a connection reveals, from the address a mining peer sees to the details a client learns in a TLS handshake.
+I build Bitcoin tools and test what they reveal about the people using them. My work in privacy, security, and penetration testing often starts with a practical question: can a miner reach its pool without exposing its IP address?
 
 ### [ArkPool Gateway](https://github.com/PiHiker/arkpool-gateway) · Mining over Tor
 
@@ -16,6 +16,10 @@ Check a site’s TLS configuration for free, or fund a session with mainnet sats
 
 [Try the free TLS checker](https://arkapi.dev/post-quantum-check/) · [Read the live API docs](https://arkapi.dev/docs/)
 
+### [Bech32PassHunter](https://github.com/PiHiker/Bech32PassHunter) · Local wallet recovery
+
+A Python tool for checking a wallet owner’s BIP39 passphrase against a known receiving address. It covers the first BIP84 address in account zero. The [public demo](https://github.com/PiHiker/Bech32PassHunter#install-and-try-the-public-demo) lets you try it without entering wallet secrets.
+
 ### Field note
 
-[What should a P2Poolv2 node do when Tor goes offline?](https://pihiker.github.io/#field-note)
+In an experimental P2Poolv2 test, stopping Tor disconnected the node from its peers. Peering resumed when Tor returned. [Read what I checked during the outage](https://pihiker.github.io/#field-note).
