@@ -6,6 +6,8 @@ My work spans privacy, security, penetration testing, and Bitcoin. I’m interes
 
 The gateway sits between a miner and ArkPool. It sends pool traffic over Tor without falling back to a direct connection. The pool handles payouts over Ark; the gateway never needs wallet keys.
 
+ArkPool may have been the first Bitcoin mining pool to offer native Stratum V2 (SV2) over a Tor onion service. The [gateway documentation](https://github.com/PiHiker/arkpool-gateway/blob/main/docs/NATIVE_V2.md) describes the connection; historical priority is unconfirmed.
+
 [Read the gateway guide](https://github.com/PiHiker/arkpool-gateway#readme) · [Development and issues on GitLab](https://gitlab.com/arkpool/arkpool-gateway)
 
 ### [ArkAPI](https://arkapi.dev/) · Pay per call
