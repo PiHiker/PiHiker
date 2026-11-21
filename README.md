@@ -14,5 +14,6 @@ proxy goes offline.
 
 | Project | What it does |
 | --- | --- |
+| [ArkPool](https://gitlab.com/arkpool) | Bitcoin mining over Tor with pool payouts over Ark. The gateway connects miners to the pool without holding wallet keys. |
 | [ArkAPI](https://arkapi.dev/) | Bitcoin-funded APIs and OpenAI-compatible chat, paid in mainnet sats over Ark or Lightning. [Try the free TLS checker](https://arkapi.dev/post-quantum-check/) or [use the CLI and MCP tools](https://arkapi.dev/client/). |
 | [Privileged domain account audit](https://github.com/PiHiker/privileged-domain-account-audit) | Inventory membership in privileged Active Directory groups with PowerShell. |
