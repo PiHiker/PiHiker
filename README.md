@@ -12,9 +12,9 @@ ArkPool may have been the first Bitcoin mining pool to offer native Stratum V2 (
 
 ### [ArkAPI](https://arkapi.dev/) · Pay per call
 
-Check a site’s TLS configuration for free, or fund a session with mainnet sats over Ark or Lightning to query Bitcoin data and use other paid endpoints. The [earlier Signet implementation](https://github.com/PiHiker/arkapi) is available for local experiments.
+ArkAPI brings Bitcoin data, security checks, OSINT lookups, and OpenAI-compatible chat under one pay-per-call service. No account is required. Fund paid calls with mainnet sats over Ark or Lightning, with Tor and I2P access available. The [GitHub repository](https://github.com/PiHiker/arkapi) is the earlier Signet implementation.
 
-[Try the free TLS checker](https://arkapi.dev/post-quantum-check/) · [Read the live API docs](https://arkapi.dev/docs/)
+[Try the free post-quantum TLS checker](https://arkapi.dev/post-quantum-check/) · [Browse the live catalog](https://arkapi.dev/v1/catalog) · [CLI and MCP tools](https://arkapi.dev/client/)
 
 ### [Bech32PassHunter](https://github.com/PiHiker/Bech32PassHunter) · Local wallet recovery
 
