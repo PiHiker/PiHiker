@@ -20,6 +20,7 @@ ArkAPI brings Bitcoin data, security checks, OSINT lookups, and OpenAI-compatibl
 
 A Python tool for checking a wallet owner’s BIP39 passphrase against a known receiving address. It covers the first BIP84 address in account zero. The [public demo](https://github.com/PiHiker/Bech32PassHunter#install-and-try-the-public-demo) lets you try it without entering wallet secrets.
 
-### Field note
+### Field notes
 
-In an experimental P2Poolv2 test, stopping Tor disconnected the node from its peers. Peering resumed when Tor returned. [Read what I checked during the outage](https://pihiker.github.io/#field-note).
+- [Can a wallet tool stay offline while the computer stays online?](https://pihiker.github.io/#offline-wallet-check) I tested whether the Linux launcher blocked outbound traffic and what happened when isolation failed.
+- [What happens when a mining node loses Tor?](https://pihiker.github.io/#field-note) Losing peers was expected. The traffic capture helped me check whether the node tried a direct connection.
