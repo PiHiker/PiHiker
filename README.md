@@ -1,19 +1,20 @@
 # PiHiker
 
-I build Bitcoin tools and test what happens when the network stops cooperating.
-My work spans Bitcoin-funded APIs, private networking, and security engineering.
+My work spans privacy, security, penetration testing, and Bitcoin. I’m interested in what a system reveals about the people using it: which address a mining peer sees, what a TLS handshake tells a client, and who has administrative access to a domain.
 
-### In the lab: mining over Tor
+### [ArkPool Gateway](https://github.com/PiHiker/arkpool-gateway) · Mining over Tor
 
-Can a Bitcoin mining node discover a peer without advertising an IP address?
-My experimental work on [P2Poolv2](https://github.com/p2poolv2/p2poolv2)
-explores onion-only peer discovery and what a node should do when its Tor
-proxy goes offline.
+The gateway sits between a miner and ArkPool. It sends pool traffic over Tor without falling back to a direct connection. The pool handles payouts over Ark; the gateway never needs wallet keys.
 
-### Projects
+[Read the gateway guide](https://github.com/PiHiker/arkpool-gateway#readme) · [Development and issues on GitLab](https://gitlab.com/arkpool/arkpool-gateway)
 
-| Project | What it does |
-| --- | --- |
-| [ArkPool](https://gitlab.com/arkpool) | Bitcoin mining over Tor with pool payouts over Ark. The gateway connects miners to the pool without holding wallet keys. |
-| [ArkAPI](https://arkapi.dev/) | Bitcoin-funded APIs and OpenAI-compatible chat, paid in mainnet sats over Ark or Lightning. [Try the free TLS checker](https://arkapi.dev/post-quantum-check/) or [use the CLI and MCP tools](https://arkapi.dev/client/). |
-| [Privileged domain account audit](https://github.com/PiHiker/privileged-domain-account-audit) | Inventory membership in privileged Active Directory groups with PowerShell. |
+### [ArkAPI](https://arkapi.dev/) · Pay per call
+
+Check a site’s TLS configuration for free, or fund a session with mainnet sats over Ark or Lightning to query Bitcoin data and use other paid endpoints. The [earlier Signet implementation](https://github.com/PiHiker/arkapi) is available for local experiments.
+
+[Try the free TLS checker](https://arkapi.dev/post-quantum-check/) · [Read the live API docs](https://arkapi.dev/docs/)
+
+### More work
+
+- **[Privileged domain account audit](https://github.com/PiHiker/privileged-domain-account-audit)** — a PowerShell inventory of privileged Active Directory group memberships.
+- **[P2Poolv2 field note](https://pihiker.github.io/#field-note)** — what an onion-only mining node should do when its Tor proxy disappears.
