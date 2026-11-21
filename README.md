@@ -2,7 +2,7 @@
 
 I build Bitcoin tools and test what they reveal about the people using them. My work in privacy, security, and penetration testing often starts with a practical question: can a miner reach its pool without exposing its IP address?
 
-### [ArkPool Gateway](https://github.com/PiHiker/arkpool-gateway) · Mining over Tor
+### [ArkPool Gateway](https://github.com/PiHiker/arkpool-gateway) · SV2 Mining over Tor
 
 The gateway sits between a miner and [ArkPool](https://arkpool.org/). It sends pool traffic over Tor without falling back to a direct connection. The pool handles payouts over Ark; the gateway never needs wallet keys.
 
