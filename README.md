@@ -1,6 +1,6 @@
 # PiHiker
 
-My work spans privacy, security, penetration testing, and Bitcoin. I’m interested in what a system reveals about the people using it: which address a mining peer sees, what a TLS handshake tells a client, and who has administrative access to a domain.
+My work spans privacy, security, penetration testing, and Bitcoin. I’m interested in what a connection reveals, from the address a mining peer sees to the details a client learns in a TLS handshake.
 
 ### [ArkPool Gateway](https://github.com/PiHiker/arkpool-gateway) · Mining over Tor
 
@@ -14,7 +14,6 @@ Check a site’s TLS configuration for free, or fund a session with mainnet sats
 
 [Try the free TLS checker](https://arkapi.dev/post-quantum-check/) · [Read the live API docs](https://arkapi.dev/docs/)
 
-### More work
+### Field note
 
-- **[Privileged domain account audit](https://github.com/PiHiker/privileged-domain-account-audit)** — a PowerShell inventory of privileged Active Directory group memberships.
-- **[P2Poolv2 field note](https://pihiker.github.io/#field-note)** — what an onion-only mining node should do when its Tor proxy disappears.
+[What should a P2Poolv2 node do when Tor goes offline?](https://pihiker.github.io/#field-note)
